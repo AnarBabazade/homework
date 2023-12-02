@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+#form {
+  height: 100vh;
+  background: linear-gradient(to top right, #08aeea 0%, #b721ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: none;
+}
+
+#form form {
+  width: 50%;
+  height: 90%;
+  background-color: white;
+}
+#form form h1 {
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#form form .box .name {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 30px;
+}
+#form form .box .name input {
+  margin-left: 87px;
+  width: 200px;
+  height: 30px;
+  background-color: rgb(233, 219, 219);
+}
+#form form .box .company {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 30px;
+  margin-top: 20px;
+}
+#form form .box .company input {
+  margin-left: 50px;
+  width: 487px;
+  height: 30px;
+  background-color: rgb(233, 219, 219);
+}
+#form form .box .email {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 30px;
+  margin-top: 20px;
+}
+#form form .box .email input {
+  margin-left: 87px;
+  width: 487px;
+  height: 30px;
+  background-color: rgb(233, 219, 219);
+}
+#form form .box .phone {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 30px;
+  margin-top: 20px;
+}
+#form form .box .phone .code {
+  margin-left: 87px;
+  width: 150px;
+  height: 30px;
+  background-color: rgb(233, 219, 219);
+}
+#form form .box .phone .number {
+  margin-left: 87px;
+  width: 250px;
+  height: 30px;
+  background-color: rgb(233, 219, 219);
+}
+#form form .box .subject {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 30px;
+  margin-top: 20px;
+}
+#form form .box .subject select {
+  margin-left: 72px;
+  width: 487px;
+  height: 30px;
+  background-color: rgb(233, 219, 219);
+}
+#form form .box .question {
+  margin-left: 30px;
+}
+#form form .box .question label {
+  margin-right: 80px;
+}
+#form form .box .question h2 {
+  margin-bottom: 10px;
+}
+#form form .box .button {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+#form form .box .button button {
+  background-color: red;
+  color: white;
+  width: 100px;
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */
